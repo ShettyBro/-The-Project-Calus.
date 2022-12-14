@@ -802,7 +802,6 @@ que();
                                              My Self Sudeep Shivashettar
                                              I'm Currently Studying BCA
                                            @G.H.BCA Haveri,Karnataka,India
-					   My Website */: 
-void shetty (){
-					system("start https://sudeep-shivashettar.carrd.co/")
-	}
+					   My Website : https://sudeep-shivashettar.carrd.co/ 
+					   
+*/
