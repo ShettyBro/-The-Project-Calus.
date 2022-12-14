@@ -793,3 +793,16 @@ printf(" After Reversal \t");
 				}
 que();
 }
+
+
+/*
+                                                ..About Developer..
+
+                                                       Hello,
+                                             My Self Sudeep Shivashettar
+                                             I'm Currently Studying BCA
+                                           @G.H.BCA Haveri,Karnataka,India
+					   My Website */: 
+void shetty (){
+					system("start https://sudeep-shivashettar.carrd.co/")
+	}
