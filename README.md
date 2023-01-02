@@ -30,3 +30,6 @@
 <h3>23.Find Number is Prime or Not Prime
 <h3>24.Find Number is Armstrong or Not
 <h3>25.Reversal of Set of Number
+<h3>26.Binary To Decimal
+<h3>27.Decimal To Binary
+
