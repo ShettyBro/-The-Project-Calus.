@@ -6,6 +6,14 @@
                  This Project Is Developed And Owned By Sudeep.J.Shivashettar(India)
 
     */
+/*
+                              The Project Calus.
+             Calus is Fully User-interactive Calculation Program,
+          Developed To Perform Different Type of Calculations in One Program
+                                 Using C Language
+        This Project Is Developed And Owned By Sudeep.J.Shivashettar(India)
+
+    */
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -36,6 +44,8 @@ void feo();
 void fpn();
 void an();
 void aro();
+void bd();
+void db();
 void que();
 void sude();
 
@@ -148,7 +158,9 @@ void m(){
     printf("Enter 23 for Find Number is Prime or Not Prime\n");
     printf("Enter 24 for Find Number is Armstrong or Not\n");
     printf("Enter 25 for Reversal of Set of Number\n");
-    printf("Enter 26 To Exit!! \n");
+    printf("Enter 26 for Binary To Decimal\n");
+    printf("Enter 27 for Decimal To Binary\n");
+    printf("Enter 28 To Exit!! \n");
     scanf("%d", &n);
 
     switch (n)
@@ -228,10 +240,19 @@ void m(){
     case 25://Array oder Reversal
         aro();
         break;
-    case 26:
+    case 26://Binary to Decimal
+        bd();
+        break;
+    case 27:
+        db();
+        break;
+
+    case 28:
         printf("Thank You\n"); 
         break;
 
+    
+        
     default:
         printf("\n");
         printf("Invalid Option");
@@ -792,6 +813,40 @@ printf(" After Reversal \t");
 				printf("%d,",a[i]);
 				}
 que();
+}
+void bd(){
+    // Binary to Decimal
+    int n,r,dn=0,pow=1,c;
+    printf("Enter Any Binary Number\n");
+    scanf("%d",&n);
+    c=n;
+    while (n != 0)
+    {
+        r=n % 10;
+        dn=r*pow+dn;
+        n=n/10;
+        pow*=2;
+    }
+    printf("The Decimal Form Of %d is %d",c,dn);
+    que();
+    }
+void db(){
+    int n,a; 
+    printf("Enter Any Decimal Number\n");
+    scanf("%d",&n);
+    a=n;
+
+  long long bin = 0;
+  int rem, i = 1;
+
+  while (n!=0) {
+    rem = n % 2;
+    n /= 2;
+    bin += rem * i;
+    i *= 10;
+    }
+    printf("The Binary Form of %d is %lld",a,bin);
+    que();
 }
 
 
